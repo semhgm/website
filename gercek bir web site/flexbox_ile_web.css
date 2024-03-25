@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+.top-bar{
+    background-color: hsl(281, 45%, 21%);
+    color: hsl(279, 18%, 69%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.logo{
+    font-size: 1.2rem;
+    padding: 1rem;
+    
+    flex-grow: 1;
+}.menu{
+   
+    flex-grow: 1;
+   
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    
+    
+}
+.menu ul li{
+    justify-content: right;
+    flex-grow: 1;
+    
+}
+.menu ul li a {
+    font-size: 1.2rem;
+    color: inherit;
+    text-decoration: none;
+    justify-content: space-between;
+
+}
+.baglanti:hover{
+    background-color: hsl(281, 45%, 26%);
+    padding: 20px;
+}
+.banner{
+    background-image:url(resim/galata-4043037_960_720.jpg) ;
+    background-size: cover;
+}
+.banner-text{
+   
+    padding: 15% 0 ;
+
+}
+.banner-text-item{
+  
+    margin: auto;
+    width: 50%;
+}
+.banner-text-item h1{
+    font-size: 2rem;
+    padding-bottom: 1.2rem;
+    text-transform: uppercase;
+    color:  hsl(281, 45%, 21%);
+    border-style: hidden;
+    background-color: hsl(279, 18%, 69%);
+    opacity: 0.6;
+    text-align: center;
+}
+.banner-text-item p{
+    color:  hsl(279, 18%, 69%);
+    line-height: 1.5;
+    font-size: 1.5rem;
+    
+}
+.main-content{
+  
+    display: flex;
+    padding: 2% 0;
+    flex-direction: row;
+
+}
+.main-item{
+
+flex-grow: 1;
+padding: 2%;
+line-height: 1.5;
+text-align: center;
+}
+.main-item h2{
+    color: hsl(281, 45%, 21%);
+}
+.main-item p{
+    margin-top: .75rem;
+color: hsl(279, 18%, 69%);
+}
+.form-container{
+margin: 0;
+padding: 0;
+
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(281, 45%, 21%);
+    color: hsl(279, 18%, 69%);
+    padding: 30px;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.inputBox{
+    position: relative;
+    width: 250px;
+}
+.inputBox input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid hsl(279, 18%, 69%);
+    background: hsl(281, 45%, 26%);
+    outline: none;
+    color: hsl(0, 0%, 93%);
+    border-radius: 5px;
+
+
+}
+.inputBox textarea{
+    width: 100%;
+    padding: 40px;
+    border: 1px solid hsl(279, 18%, 69%);
+    background: hsl(281, 45%, 26%);
+    outline: none;
+    color: hsl(0, 0%, 93%);
+    font-size: 1em;
+    border-radius: 5px;
+
+}
+.inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+}
+
